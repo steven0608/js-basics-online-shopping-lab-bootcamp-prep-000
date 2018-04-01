@@ -42,7 +42,7 @@ return sum;
 
 function removeFromCart(item){
   for (var i in cart){
-    if(cart[i][item] == item){
+    if(cart[i]["item"] == item){
       cart.splice(i,1);
       return cart;
     }
