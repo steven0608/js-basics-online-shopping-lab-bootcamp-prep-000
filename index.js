@@ -33,8 +33,8 @@ for (let i=0;i<cart.length;i++){
 }
 
 function total() {
+  var sum=0;
   for(let i=0;i<cart.length;i++){
-var sum=0;
 sum+=cart[i].itemPrice;
 return sum
 }
