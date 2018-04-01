@@ -42,7 +42,8 @@ return sum;
 
 function removeFromCart(item) {
   for (let i=0;i<cart.length,i++){
-      return cart.splice(i,0)
+    cart.splice(i,0)
+    return cart
   }
 }
 
