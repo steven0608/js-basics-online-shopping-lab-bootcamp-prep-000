@@ -34,7 +34,7 @@ for (let i=0;i<cart.length;i++){
 
 function total() {
   for(let i=0;i<cart.length;i++){
-    return (cart[i-1].itemPrice+cart[i].itemPrice)
+    return ({cart[i-1].itemPrice}+{cart[i].itemPrice})
   }
 }
 
