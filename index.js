@@ -43,11 +43,11 @@ return sum;
 function removeFromCart(item) {
   for (let i=0;i<cart.length;i++) {
     if (cartItem==item){
-    cart.splice(i,0)  
+    cart.splice(i,0)
     return cart
   }else{
     return "That item is not in your cart."
-  }  
+  }
   }
 }
 
