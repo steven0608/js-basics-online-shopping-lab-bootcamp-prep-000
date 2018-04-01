@@ -34,7 +34,8 @@ for (let i=0;i<cart.length;i++){
 
 function total() {
   for(let i=0;i<cart.length;i++){
-const sum=cart[i].itemPrice;
+var sum=0;
+sum+=cart[i].itemPrice;
 return sum
 }
 }
