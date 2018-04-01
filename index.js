@@ -43,7 +43,8 @@ return sum;
 function removeFromCart(item) {
   for (var i in cart ) {
     if (cart[i].hasOwnProperty(item)===true){
-    return cart.splice(i,1)
+      cart.splice(i,1);
+      return cart
   }else{
     return "That item is not in your cart."
   }
