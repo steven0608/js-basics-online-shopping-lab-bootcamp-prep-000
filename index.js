@@ -34,7 +34,9 @@ for (let i=0;i<cart.length;i++){
 
 function total() {
   for(let i=0;i<cart.length;i++){
-    return ({cart[i-1].itemPrice}+{cart[i].itemPrice})
+const currentTotalPrice=[];
+currentTotalPrice.push(itemPrice);
+    return (currentTotalPrice[i])
   }
 }
 
