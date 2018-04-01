@@ -42,8 +42,12 @@ return sum;
 
 function removeFromCart(item) {
   for (let i=0;i<cart.length;i++) {
-    cart.splice(i,0)
+    if (cartItem==item){
+    cart.splice(i,0)  
     return cart
+  }else{
+    return "That item is not in your cart."
+  }  
   }
 }
 
