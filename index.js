@@ -41,7 +41,9 @@ return sum;
 }
 
 function removeFromCart(item) {
-  // write your code here
+  for (let i=0;i<cart.length,i++){
+      return cart.splice(i,0)
+  }
 }
 
 function placeOrder(cardNumber) {
