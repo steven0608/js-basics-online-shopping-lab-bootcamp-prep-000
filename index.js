@@ -58,7 +58,7 @@ else{
   return ("Your total cost is $"+total()+", which will be charged to the card "+cardNumber+".");
 }
 for (var i=0;i<cart.length;--i){
-  cart.splice(i,i);
+  cart.splice(i,cart.length);
   return cart;
 }
 }
